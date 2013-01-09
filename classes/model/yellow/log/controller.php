@@ -16,6 +16,14 @@ class Model_Yellow_Log_Controller extends ORM
 	protected $_table = 'log_controllers';
 	
 	/**
+	 * @var	array 	created column
+	 */
+	protected $_created_column = array(
+		'column' => 'created',
+		'format' => 'U',
+	);
+	
+	/**
 	 * @var	array 	belongs to a user
 	 */
 	protected $_belongs_to = array(

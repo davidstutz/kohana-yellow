@@ -4,7 +4,6 @@ The module provides the following ORM models:
 
 * log_controller
 * log_model
-* log_action (not yet implemented)
 
 It is recommended to extend all given models through the following scheme:
 	

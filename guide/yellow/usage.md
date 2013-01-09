@@ -6,21 +6,22 @@ To use this module with Green make the following configuration for Green:
 
 	// Take true for the rule types you want to log.
 	'logger' => array(
-		'model' => TRUE,
-		'controller' => FALSE,
-		'action' => FALSE,
+		'model' => new Yellow('log_model'),
+		'controller' => new Yellow('log_controller'),
 	),
 	
-The Green module will automatically log the specific actions. Note: Currently only the logging of model access is supported by Green.
+The Green module will automatically log the specific actions.
 
 ## Manual logging
 
-	Yellow::log($type, $values);
+	// For example add a model log.
+	$logger = new Yellow('log_model');
 	
-Where $type describes the type of action to log:
-
-* model
-* controller
-* action
+	$logger->log(array(
+		'model' => $model_name,
+		'model_id' => $model->id,
+		'data' => $model->as_array(),
+		'method' => $method,
+	)
 
 Adn values are the values for the log model. See [provided Models](models).

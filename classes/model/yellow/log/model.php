@@ -16,6 +16,14 @@ class Model_Yellow_Log_Model extends ORM
 	protected $_table = 'log_models';
 	
 	/**
+	 * @var	array 	created column
+	 */
+	protected $_created_column = array(
+		'column' => 'created',
+		'format' => 'U',
+	);
+	
+	/**
 	 * @var	array 	belongs to user
 	 */
 	protected $_belongs_to = array(

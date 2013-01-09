@@ -10,9 +10,15 @@
 class Kohana_Yellow
 {
 	
-	const MODEL = 'log_model';
-	const CONTROLLER = 'log_controller';
-	const ACTION = 'log_action';
+	/**
+	 * @var	string	type
+	 */
+	protected $_type;
+	
+	public function __construct($type)
+	{
+		$this->_type = $type;
+	}
 	
 	/**
 	 * Static logging.
@@ -20,9 +26,9 @@ class Kohana_Yellow
 	 * @param	string	type
 	 * @param	array 	values
 	 */
-	public static function log($type, $values)
+	public function log($values)
 	{
-		$log = ORM::factory($type);
+		$log = ORM::factory($this->_type);
 		$log->user = Red::instance()->get_user();
 		$log->values($values)
 			->create();
