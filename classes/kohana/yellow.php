@@ -11,6 +11,12 @@ class Kohana_Yellow
 {
 	
 	/**
+	 * Constants for all logging types.
+	 */
+	const CONTROLLER = 'log_controller';
+	const MODEL = 'log_model';
+	
+	/**
 	 * @var	string	type
 	 */
 	protected $_type;

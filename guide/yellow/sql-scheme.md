@@ -29,6 +29,7 @@ The following tables will log the specific type of access:
 	CREATE TABLE IF NOT EXISTS `pl_log_controllers` (
 	  `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT ,
 	  `controller` VARCHAR(255) NOT NULL ,
+	  `uri` VARCHAR(255) NOT NULL , -- Assuming uri will not need more than 255 characters.
 	  `user_id` INT(11) UNSIGNED NOT NULL ,
 	  `created` INT(11) NOT NULL ,
 	  PRIMARY KEY (`id`) ,
