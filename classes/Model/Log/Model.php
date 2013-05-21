@@ -4,7 +4,7 @@
  * 
  * @package		Yellow
  * @author		David Stutz
- * @copyright	(c) 2012 David Stutz
+ * @copyright	(c) 2013 David Stutz
  * @license		http://opensource.org/licenses/bsd-3-clause
  */
 class Model_Log_Model extends Model_Yellow_Log_Model {}

@@ -5,7 +5,7 @@
  * 
  * @package		Yellow
  * @author		David Stutz
- * @copyright	(c) 2012 David Stutz
+ * @copyright	(c) 2013 David Stutz
  * @license		http://opensource.org/licenses/bsd-3-clause
  */
 return array(
@@ -14,7 +14,7 @@ return array(
 			'enabled' => TRUE,
 			'name' => 'Yellow',
 			'description' => 'ORM based logging module to use with Green and Red.',
-			'copyright' => '(c) 2012 David Stutz',
+			'copyright' => '(c) 2013 David Stutz',
 		),
 	)
 );
