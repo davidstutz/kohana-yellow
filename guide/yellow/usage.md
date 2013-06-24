@@ -9,7 +9,7 @@ To use this module with Green make the following configuration for Green:
 		'model' => new Yellow(Yellow::MODEL),
 		'controller' => new Yellow(Yellow::CONTROLLER),
 	),
-	
+
 The Green module will automatically log the specific actions.
 
 ## Manual logging

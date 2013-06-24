@@ -1,12 +1,12 @@
 # Yellow Kohana Module
 
-Yellow is a logging module for the access control system [Green](https://github.com/davidstutz/kohana-green) based on [Red](https://github.com/davidstutz/kohana-red).
+Yellow is a logging module for the access control system [Green](https://github.com/davidstutz/kohana-green) which is based on [Red](https://github.com/davidstutz/kohana-red).
 
-Yellow is part of a set of kohana modules:
+Yellow is part of a set of Kohana modules:
 * [Red](https://github.com/davidstutz/kohana-red): ORM based authentication.
-* [Green](https://github.com/davidstutz/kohana-green): ORM based access control for models, controllers and actions (depends on [Red](https://github.com/davidstutz/kohana-red)).
-* [Blue](https://github.com/davidstutz/kohana-blue): ORM based user configuration module (depends on [Red](https://github.com/davidstutz/kohana-red)).
-* [Yellow](https://github.com/davidstutz/kohana-yellow): ORM based logging solution for Green (depends on [Green](https://github.com/davidstutz/kohana-green)).
+* [Green](https://github.com/davidstutz/kohana-green): Red based access control for models and controllers.
+* [Blue](https://github.com/davidstutz/kohana-blue): Red based user configuration module.
+* [Yellow](https://github.com/davidstutz/kohana-yellow): Green based logging solution.
 
 For documentation see the guide/ subfolder or use Kohana's [Userguide](https://github.com/kohana/userguide) module.
 
