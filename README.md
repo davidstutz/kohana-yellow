@@ -10,6 +10,27 @@ Yellow is part of a set of Kohana modules:
 
 For documentation see the guide/ subfolder or use Kohana's [Userguide](https://github.com/kohana/userguide) module.
 
+## Composer
+
+Installation via composer:
+
+    {
+        "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/davidstutz/kohana-red"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/davidstutz/kohana-media"
+            }
+        ],
+        "require": {
+            "davidstutz/kohana-red": "dev-master",
+            "davidstutz/kohana-yellow": "dev-master"
+        }
+    }
+
 ## License
 
 Copyright (c) 2013 - 2014 David Stutz
