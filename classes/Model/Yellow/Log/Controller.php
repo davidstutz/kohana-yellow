@@ -2,20 +2,20 @@
 /**
  * For logging controllers.
  *
- * @package		Yellow
- * @author		David Stutz
- * @copyright	(c) 2013 - 2014 David Stutz
- * @license		http://opensource.org/licenses/bsd-3-clause
+ * @package     Yellow
+ * @author      David Stutz
+ * @copyright   (c) 2013 - 2016 David Stutz
+ * @license     http://opensource.org/licenses/bsd-3-clause
  */
 class Model_Yellow_Log_Controller extends ORM {
 
     /**
-     * @var	string	table
+     * @var    string    table
      */
     protected $_table = 'log_controllers';
 
     /**
-     * @var	array 	created column
+     * @var    array     created column
      */
     protected $_created_column = array(
         'column' => 'created',
@@ -23,7 +23,7 @@ class Model_Yellow_Log_Controller extends ORM {
     );
 
     /**
-     * @var	array 	belongs to a user
+     * @var    array     belongs to a user
      */
     protected $_belongs_to = array(
         'user' => array(

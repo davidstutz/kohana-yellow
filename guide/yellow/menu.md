@@ -1,3 +1,3 @@
 ## [Yellow](index)
- - [SQL Scheme](sql-scheme)
+ - [SQL Schema](sql-schema)
  - [Usage](usage)

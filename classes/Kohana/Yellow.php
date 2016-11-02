@@ -4,7 +4,7 @@
  *
  * @package     Yellow
  * @author      David Stutz
- * @copyright   (c) 2013 - 2014 David Stutz
+ * @copyright   (c) 2013 - 2016 David Stutz
  * @license     http://opensource.org/licenses/bsd-3-clause
  */
 class Kohana_Yellow implements Kohana_Yellow_Logger {
@@ -12,8 +12,8 @@ class Kohana_Yellow implements Kohana_Yellow_Logger {
     /**
      * Constants for all logging types.
      */
-    const CONTROLLER = 'log_controller';
-    const MODEL = 'log_model';
+    const CONTROLLER = 'Log_Controller';
+    const MODEL = 'Log_Model';
 
     /**
      * @var string  type

@@ -2,20 +2,20 @@
 /**
  * For logging models.
  *
- * @package		Yellow
- * @author		David Stutz
- * @copyright	(c) 2013 - 2014 David Stutz
- * @license		http://opensource.org/licenses/bsd-3-clause
+ * @package     Yellow
+ * @author      David Stutz
+ * @copyright   (c) 2013 - 2016 David Stutz
+ * @license     http://opensource.org/licenses/bsd-3-clause
  */
 class Model_Yellow_Log_Model extends ORM {
 
     /**
-     * @var	string	table
+     * @var    string    table
      */
     protected $_table = 'log_models';
 
     /**
-     * @var	array 	created column
+     * @var    array     created column
      */
     protected $_created_column = array(
         'column' => 'created',
@@ -23,7 +23,7 @@ class Model_Yellow_Log_Model extends ORM {
     );
 
     /**
-     * @var	array 	belongs to user
+     * @var    array     belongs to user
      */
     protected $_belongs_to = array(
         'user' => array(
